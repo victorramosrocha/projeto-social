@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Escondendo a barra de rolagem */
+::-webkit-scrollbar {
+    width: 0; /* largura 0 */
+    height: 0; /* altura 0 */
+}
+
+
+/* Template página  */
+img {
+    width: 100vw;
+}
+
+
+/* Linka "botão" de acesso a rede social */
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+a:hover {
+    background-color: red;
+}
